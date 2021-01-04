@@ -1,0 +1,22 @@
+{
+  "name": "learn-express",
+  "version": "1.0.0",
+  "description": "Learn express js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Atul Sharma",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "moment": "^2.29.1",
+    "shortid": "^2.2.16"
+  }
+}
